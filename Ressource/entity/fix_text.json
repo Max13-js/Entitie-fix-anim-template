@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "ng:test",
+        "materials": { "default": "raie_manta" },
+        "textures": {
+          "default": "textures/entity/elf"
+        },
+        "geometry": {
+          "default": "geometry.elf"
+        },
+        "animations": {     
+          "fix": "animation.unknown.new"    
+        },
+        "animation_controllers": [
+          { "fix": "controller.animation.fix.stat" }
+        ],
+        "render_controllers": [ "controller.render.iron_golem" ],
+        "spawn_egg": {
+          "base_color": "#0099ff",
+          "overlay_color": "#0099ff"
+        }
+      }
+    }
+  }

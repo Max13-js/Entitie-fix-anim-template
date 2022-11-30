@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "NG TEST",
+      "description": "NGTEST B",
+      "uuid": "0bd82c8a-d909-9bf9-4c55-ac2622b15aec",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        17,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "uuid": "681e993e-83c8-1da9-cebd-8a7b47661f20",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "4b4f0f84-4f9a-2777-6dbd-f51977665d79",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  }

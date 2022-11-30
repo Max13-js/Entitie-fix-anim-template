@@ -1,0 +1,19 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {		
+		"controller.animation.fix.stat" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						"setup",
+						{
+							"fix" : "query.ground_speed == 0"
+						},
+						"look_at_target"
+					]
+				}
+			}
+		}
+	}
+}
